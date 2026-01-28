@@ -23,9 +23,9 @@ const Navbar = () => {
         </button>
 
         <div className={`hidden md:flex space-x-6`}>
-          <a href="#technical-writing" className="text-gray-700 hover:text-purple-700">Technical Writing</a>
           <a href="#web-development" className="text-gray-700 hover:text-purple-700">Web Development</a>
           <a href="#projects" className="text-gray-700 hover:text-purple-700">Projects</a>
+          <a href="#technical-writing" className="text-gray-700 hover:text-purple-700">Technical Writing</a>
           <a href="#skills" className="text-gray-700 hover:text-purple-700">Skills</a>
           <a href="#experience" className="text-gray-700 hover:text-purple-700">Experience</a>
         </div>
