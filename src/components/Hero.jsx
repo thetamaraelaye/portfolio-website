@@ -13,7 +13,7 @@ const Hero = () => (
           transition: { duration: 1, ease: "easeInOut" },
         }}
       >
-        <h1 className="text-6xl lg:text-7xl font-bold mb-6">
+        <h1 className="text-2xl lg:text-7xl font-bold mb-6">
           Tamara Elayelagha
         </h1>
       </motion.div>
@@ -31,7 +31,7 @@ const Hero = () => (
             delay: 1.8,
           },
         }}
-        className="text-3xl lg:text-4xl text-purple-200 mb-8"
+        className="text-xl lg:text-4xl text-purple-200 mb-8"
       >
         I&apos;m a problem-solver who loves to travel and try new things.
       </motion.div>
@@ -48,7 +48,7 @@ const Hero = () => (
             delay: 1.5,
           },
         }}
-        className="text-xl max-w-2xl mx-auto text-purple-200"
+        className="text-sm max-w-2xl mx-auto text-purple-200"
       >
         I&apos;m a Fullstack Developer and Technical Writer passionate about solving complex problems, exploring new places through travel, and embracing innovative technologies to create exceptional digital experiences and streamline processes.
       </motion.div>
