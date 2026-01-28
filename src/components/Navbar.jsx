@@ -35,9 +35,9 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden bg-white border-t">
           <div className="container mx-auto px-6 py-4 flex flex-col space-y-3">
-            <a href="#technical-writing" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Technical Writing</a>
             <a href="#web-development" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Web Development</a>
             <a href="#projects" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Projects</a>
+            <a href="#technical-writing" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Technical Writing</a>
             <a href="#skills" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Skills</a>
             <a href="#experience" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Experience</a>
           </div>
