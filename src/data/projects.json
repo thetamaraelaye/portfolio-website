@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "linguaspan",
+    "title": "Linguaspan - Full-Stack Speech Transcription App",
+    "category": "Product",
+    "description": [
+      "Built an AI-powered transcription platform for African-accented English, French, and Yoruba",
+      "Backend with FastAPI (Python), Supabase, Swagger docs, integrated with Hugging Face models",
+      "Frontend with Next.js, React, TypeScript and TailwindCSS",
+      "Secure user authentication, file upload capabilities, and role-based access management",
+      "Real-time transcription processing with advanced AI/ML model integration"
+    ],
+    "tech": ["FastAPI", "Python", "Supabase", "Hugging Face", "Next.js", "React", "TypeScript", "TailwindCSS"],
+    "live": "https://www.linguaspanapp.com/",
+    "image": "/first-phone.svg",
+    "alt": "Linguaspan mobile app interface showing speech transcription features",
+    "details": "Comprehensive AI-powered transcription platform supporting African-accented English, French, and Yoruba languages.",
+    "achievements": [
+      "Developed backend with FastAPI (Python), Supabase, and Swagger docs",
+      "Created responsive Next.js, React, TypeScript, TailwindCSS frontend",
+      "Integrated Hugging Face AI/ML models for transcription",
+      "Implemented secure auth, file upload, and user role management"
+    ],
+    "github": "https://github.com/thetamaraelaye/linguaspan"
+  },
+  {
+    "slug": "orukka",
+    "title": "MoneSave / Orukka App",
+    "category": "Mobile App",
+    "description": [
+      "Complete UI/UX design and product development for MoneSave savings app (Orukka)",
+      "Flutterflow UI design with focus on user experience and conversion optimization",
+      "Redesigned and optimized 60% of onboarding and high-conversion screens",
+      "Platform integrations for seamless banking and financial services",
+      "Collaborated with cross-functional global teams for feature delivery and testing"
+    ],
+    "tech": ["Flutterflow", "UI Design", "User Experience"],
+    "platforms": [
+      { "name": "App Store", "url": "https://apps.apple.com/ng/app/orukka-by-monesave-ring-app/id6480351864" },
+      { "name": "Play Store", "url": "https://play.google.com/store/apps/details?id=com.mycompany.monesave&hl=en" }
+    ],
+    "live": "",
+    "image": "/monesave-app-image.webp",
+    "alt": "MoneSave website homepage showing smart payment ring technology",
+    "details": "Comprehensive savings and financial management mobile application with advanced UI/UX design.",
+    "achievements": [
+      "Redesigned and optimized 60% of onboarding and high-conversion screens",
+      "Contributed to increases in revenue and user acquisition/retention",
+      "Integrated core product features and backend services using Supabase",
+      "Collaborated with cross-functional global teams for feature delivery"
+    ],
+    "github": ""
+  },
+  {
+    "slug": "palremit-dashboard",
+    "title": "Palremit Internal Dashboard",
+    "category": "Product",
+    "description": [
+      "Internal dashboard for Palremit financial app managing 7 user roles (super admin, admin, crm, etc.)",
+      "Frontend management for crypto and fiat transactions with comprehensive controls",
+      "User management system with role-based access and permissions",
+      "Ads management and cards administration functionality",
+      "Built for fintech operations with advanced dashboard features"
+    ],
+    "tech": ["React", "TypeScript", "Fintech", "Dashboard Development", "User Management"],
+    "live": "",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+    "alt": "Palremit internal dashboard showing fintech management interface",
+    "details": "Comprehensive internal dashboard developed for Palremit financial application. Manages 7 distinct user roles including super admin, admin, and CRM. Features frontend management for crypto and fiat transactions, user administration, ads management, and cards functionality.",
+    "achievements": [
+      "Built internal dashboard managing 7 user roles for Palremit",
+      "Implemented frontend management for crypto and fiat transactions",
+      "Created comprehensive user management and role-based access",
+      "Developed ads management and cards administration features",
+      "Designed fintech dashboard with advanced operational controls"
+    ],
+    "github": ""
+  },
+  {
+    "slug": "teller-management",
+    "title": "Teller Management System",
+    "category": "Product",
+    "description": [
+      "Banking teller management system for Tier 2 financial institution in Nigeria",
+      "Transaction request and management system with comprehensive processing capabilities",
+      "Callover reporting and audit trail functionality for compliance and tracking",
+      "Security features implementation and performance optimization",
+      "Frontend built with React, TypeScript, HTML, and CSS for modern banking workflows"
+    ],
+    "tech": ["React", "TypeScript", "HTML", "CSS", "Banking APIs"],
+    "live": "",
+    "image": "/projects/the-alternative-bank.png",
+    "alt": "The Alternative Bank teller management system interface showing transaction processing",
+    "details": "Comprehensive teller management system developed for a Tier 2 financial institution in Nigeria. The system handles transaction requests, transaction management, callover reporting, audit trails, and includes robust security features with performance optimization.",
+    "achievements": [
+      "Developed teller management system for Tier 2 banking institution",
+      "Implemented transaction request and management features",
+      "Created callover reporting and audit trail functionality",
+      "Enhanced security features and performance optimization",
+      "Built modern React/TypeScript frontend for banking workflows"
+    ],
+    "github": ""
+  },
+  {
+    "slug": "hris",
+    "title": "HRIS Management System",
+    "category": "Product",
+    "description": [
+      "Extended Human Resource Information System built as an evolution of Paytime payroll system",
+      "Comprehensive modules covering leave management, performance evaluation, teammate management",
+      "Advanced payroll system including all Paytime features with enhanced capabilities",
+      "End-to-end recruitment system with applicant tracking and hiring workflows",
+      "Converted Paytime codebase into 8 distinct subsections using Next.js, TypeScript, and React Query",
+      "Modern architecture with improved type safety, performance, and user experience"
+    ],
+    "tech": ["Next.js", "TypeScript", "React Query", "JavaScript", "HRIS", "Code Migration"],
+    "live": "",
+    "image": "/projects/hris.jpeg",
+    "alt": "HRIS management system dashboard showing employee management, payroll, and recruitment features",
+    "details": "Comprehensive Human Resource Information System developed as an extended version of the Paytime payroll platform. Features 8 distinct modules covering leave management, performance evaluation, teammate management, advanced payroll processing, and end-to-end recruitment. Includes complete code migration from JavaScript to TypeScript with Next.js and React Query for enhanced performance and type safety.",
+    "achievements": [
+      "Built comprehensive HRIS extending Paytime payroll system",
+      "Developed 8 distinct modules for leave, performance, teammate, and recruitment management",
+      "Migrated codebase to Next.js, TypeScript, and React Query architecture",
+      "Enhanced payroll system with advanced features and integrations",
+      "Improved system stability by 90% through code modernization",
+      "Created end-to-end recruitment and performance evaluation workflows"
+    ],
+    "github": ""
+  },
+  {
+    "slug": "paytime",
+    "title": "Paytime - Payroll Management System",
+    "category": "Product",
+    "description": [
+      "Comprehensive payroll management system built with Django for employee compensation and benefits administration",
+      "User Authentication with bank account verification through Paystack integration",
+      "Role-based Access Control with department management and automated onboarding workflows",
+      "Payroll Processing with detailed payslips including allowances, deductions, and tax calculations",
+      "Pension Management with automated contributions, PFA remittances, and compliance reporting",
+      "Audit Trails with complete financial transaction tracking and professional PDF document generation"
+    ],
+    "tech": ["Django", "Python", "Paystack", "PostgreSQL", "PDF Generation"],
+    "live": "",
+    "image": "/projects/paytime-dashboard.png",
+    "alt": "Paytime payroll management system dashboard showing employee management and pension features",
+    "details": "Paytime is a comprehensive payroll management system built with Django that streamlines employee compensation and benefits administration for organizations. The platform manages the complete employee lifecycle from onboarding and authentication to payroll processing and pension management.",
+    "achievements": [
+      "Built comprehensive payroll system with Django and Python",
+      "Integrated Paystack for secure bank account verification",
+      "Implemented role-based access control and automated workflows",
+      "Developed pension management with automated PFA remittances",
+      "Created audit trails with professional PDF document generation",
+      "Increased HR and finance department productivity by 600%"
+    ],
+    "github": ""
+  }
+]
