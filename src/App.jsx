@@ -1,84 +1,62 @@
 import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import TechnicalWriting from "./components/TechnicalWriting";
+import Websites from "./components/Websites";
 import Skills from "./components/Skills";
+import OtherSkills from "./components/OtherSkills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Interests from "./components/Interests";
+import InternalTools from "./components/InternalTools";
 import Footer from "./components/Footer";
+import projects from "./data/projects.json";
 
 function App() {
   const skills = [
     "React",
     "Redux",
     "Next.js",
-    "Express.js",
-    "Prisma",
     "JavaScript",
     "TypeScript",
+    "WordPress",
+    "Elementor",
+    "Elementor Pro",
+    "Content Management Systems",
+    "Flutterflow",
+    "Python",
+    "FastAPI",
+    "Node.js",
+    "Express.js",
+    "Axios",
+    "Puppeteer",
+    "Swagger/OpenAPI",
+    "Postman",
     "Tailwind CSS",
-    "Next.js",
     "Git",
-    "Firebase",
+    "HTML",
+    "CSS",
   ];
 
-  const projects = [
-    {
-      title: "Chatty",
-      description:
-        "A real-time chat application built with Next.js for the frontend, Express.js for the backend using Socket.io for real-time communication.",
-      tech: ["Next.js", "Express.js", "Socket.io", "Prisma"],
-      github: "https://github.com/babaj301/chat-backend",
-      live: "https://chat-frontend-ten-opal.vercel.app/rooms",
-    },
-
-    {
-      title: "CreoWis",
-      description:
-        "A responsive landing page for a note taking app using Next.js, and Framer Motion for animations. Built with TypeScript and Tailwind CSS for styling.",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/babaj301/creowis-landing",
-      live: "https://creowis-landing.vercel.app/",
-    },
-    {
-      title: "FindTrend",
-      description:
-        "A responsive landing page for a social media platform using Next.js, and Framer Motion for animations. Built with TypeScript and Tailwind CSS for styling.",
-      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/babaj301/FindTrend-landing-page",
-      live: "https://findtrend-copy.netlify.app/",
-    },
-
-    {
-      title: "TaskMinder",
-      description:
-        "A full-featured task management application built with TypeScript, React, and Redux using Firebase Authentication.",
-      tech: ["TypeScript", "Redux", "Firebase", "Tailwind CSS"],
-      github: "https://github.com/babaj301/task-dashboard",
-      live: "https://taskrrrr.netlify.app/",
-    },
-
-    {
-      title: "Rayna E-Commerce",
-      description:
-        "An e-commerce platform with dynamic cart functionality and optimized performance using React Context API and Redux",
-      tech: ["React", "Context API", "Lazy Loading"],
-      github: "https://github.com/babaj301/react-work-practice",
-      live: "https://rayna-ecommerce.netlify.app/",
-    },
-    {
-      title: "React Jobs",
-      description:
-        "A simple responsive job listing platform with clean UI using Tailwind CSS and seamless navigation implemented using React Router.",
-      tech: ["React Router", "Tailwind CSS"],
-      github: "https://github.com/babaj301/react-jobs",
-      live: "https://react-jobbs.netlify.app/",
-    },
+  const otherSkills = [
+    "Technical Writing",
+    "Gitbook",
+    "Google Suites",
   ];
+
+  // projects are imported from src/data/projects.json
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Hero />
-      <Skills skills={skills} />
+      <Navbar />
+      <Websites />
       <Projects projects={projects} />
+      <InternalTools />
+      <TechnicalWriting />
+      <Skills skills={skills} />
+      <OtherSkills skills={otherSkills} />
       <Experience />
+      <Interests />
       <Footer />
     </div>
   );
