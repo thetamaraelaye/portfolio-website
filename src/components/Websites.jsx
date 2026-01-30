@@ -1,14 +1,6 @@
 const Websites = () => {
   const sites = [
-    {
-      title: "Palremit",
-      link: "https://www.palremit.com/",
-      desc: "Global payment platform (WordPress-based site).",
-      skills: ["Next.js", "React.js", "TailwindCSS", "TypeScript"],
-      image: "/websites/palremit-hero.png",
-      alt: "Palremit homepage showing global payment platform with crypto and fiat transfer features",
-    },
-    {
+     {
       title: "Palremit Help Site",
       link: "https://help.palremit.com/",
       desc: "Documentation and help site for Palremit.",
@@ -24,7 +16,7 @@ const Websites = () => {
       image: "/websites/linguaspan-hero.png",
       alt: "Linguaspan transcription platform showing African language support and AI-powered speech recognition",
     },
-     {
+    {
       title: "MoneSave Website",
       link: "https://monesave.com",
       desc: "Rebuilt with WordPress and Hostinger.",
@@ -39,6 +31,14 @@ const Websites = () => {
       skills: ["Next.js", "UI Design", "User Experience", ],
       image: "/websites/crop2cash-hero.png",
       alt: "Crop2Cash corporate website showing agricultural technology platform for farmers",
+    },
+    {
+      title: "Palremit",
+      link: "https://www.palremit.com/",
+      desc: "Global payment platform.",
+      skills: ["Next.js", "React.js", "TailwindCSS", "TypeScript"],
+      image: "/websites/palremit-hero.png",
+      alt: "Palremit homepage showing global payment platform with crypto and fiat transfer features",
     },
     {
       title: "Palremit Blog Site",

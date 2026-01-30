@@ -49,13 +49,13 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       <Hero />
       <Navbar />
-      <Websites />
-      <Projects projects={projects} />
-      <InternalTools />
-      <TechnicalWriting />
       <Skills skills={skills} />
       <OtherSkills skills={otherSkills} />
-      <Experience />
+      <Projects projects={projects} />
+      <Websites />
+      <InternalTools />
+      <TechnicalWriting />
+       <Experience />
       <Interests />
       <Footer />
     </div>
