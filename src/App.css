@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Ensure clickable elements show pointer cursor for uniformity */
+a, button, [role="button"] {
+	cursor: pointer;
+}
