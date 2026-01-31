@@ -47,8 +47,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Hero />
       <Navbar />
+      <Hero />
       <Skills skills={skills} />
       <OtherSkills skills={otherSkills} />
       <Projects projects={projects} />
