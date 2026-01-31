@@ -102,9 +102,10 @@ const InternalTools = () => {
   ];
 
   return (
-    <section id="internal-tools" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-8 text-center">Internal Tools</h2>       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <section id="internal-tools" className="py-12 lg:py-20 bg-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <h2 className="text-3xl font-bold mb-8 text-center">Internal Tools</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {tools.map((t) => (
             <ToolCard key={t.title} tool={t} />
           ))}

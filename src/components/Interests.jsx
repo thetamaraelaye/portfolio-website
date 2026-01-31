@@ -1,8 +1,8 @@
 import { Puzzle, Plane, Lightbulb } from "lucide-react";
 
 const Interests = () => (
-  <section className="py-20 bg-gray-50">
-    <div className="container mx-auto px-6">
+  <section className="py-12 lg:py-20 bg-gray-50">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <h2 className="text-3xl font-bold mb-12 text-center">My Passions</h2>
       <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-all duration-300">

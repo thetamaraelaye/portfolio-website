@@ -51,10 +51,10 @@ const Websites = () => {
   ];
 
   return (
-    <section id="web-development" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-6">
+    <section id="web-development" className="py-12 lg:py-20 bg-gray-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <h2 className="text-3xl font-bold mb-8 text-center">Websites & Apps</h2>
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6">
           {sites.map((s) => (
             <div key={s.title} className="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col h-full">
               {/* Image at top */}

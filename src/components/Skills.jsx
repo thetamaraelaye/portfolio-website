@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
 
 const Skills = ({ skills }) => (
-  <section id="skills" className="py-20 container mx-auto px-6">
-    <h2 className="text-3xl font-bold mb-8 text-center">Technical Skills</h2>
-    <div className="flex flex-wrap justify-center gap-4">
+  <section id="skills" className="py-12 lg:py-20">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+      <h2 className="text-3xl font-bold mb-8 text-center">Technical Skills</h2>
+      <div className="flex flex-wrap justify-center gap-4">
       {skills.map((skill) => (
         <span
           key={skill}
@@ -12,6 +13,7 @@ const Skills = ({ skills }) => (
           {skill}
         </span>
       ))}
+      </div>
     </div>
   </section>
 );

@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 const Hero = () => (
   <header className="min-h-screen flex items-center justify-center bg-linear-to-br from-purple-900 via-purple-800 to-purple-900 text-white relative">
-    <div className="container mx-auto px-6 text-center">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl text-center">
       <h2 className="text-2xl mb-4 text-purple-300">Hi, my name is</h2>
       <motion.div
         initial={{ opacity: 0, scale: 0 }}
