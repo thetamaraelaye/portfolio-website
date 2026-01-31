@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-white shadow sticky top-0 z-40">
-      <div className="container mx-auto px-6 py-3 flex items-center justify-between">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-3 flex items-center justify-between">
         <div className="text-xl font-bold text-purple-800">Tamara Elayelagha</div>
 
         <button
@@ -23,22 +23,22 @@ const Navbar = () => {
         </button>
 
         <div className={`hidden md:flex space-x-6`}>
-          <a href="#web-development" className="text-gray-700 hover:text-purple-700">Web Development</a>
-          <a href="#projects" className="text-gray-700 hover:text-purple-700">Projects</a>
-          <a href="#technical-writing" className="text-gray-700 hover:text-purple-700">Technical Writing</a>
           <a href="#skills" className="text-gray-700 hover:text-purple-700">Skills</a>
+          <a href="#projects" className="text-gray-700 hover:text-purple-700">Projects</a>
+          <a href="#web-development" className="text-gray-700 hover:text-purple-700">Web Development</a>
+          <a href="#technical-writing" className="text-gray-700 hover:text-purple-700">Technical Writing</a>
           <a href="#experience" className="text-gray-700 hover:text-purple-700">Experience</a>
         </div>
       </div>
 
       {/* Mobile menu */}
-      {open && (
+        {open && (
         <div className="md:hidden bg-white border-t">
-          <div className="container mx-auto px-6 py-4 flex flex-col space-y-3">
-            <a href="#web-development" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Web Development</a>
-            <a href="#projects" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Projects</a>
-            <a href="#technical-writing" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Technical Writing</a>
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-4 flex flex-col space-y-3">
             <a href="#skills" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Skills</a>
+            <a href="#projects" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Projects</a>
+            <a href="#web-development" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Web Development</a>
+            <a href="#technical-writing" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Technical Writing</a>
             <a href="#experience" className="text-gray-700 hover:text-purple-700" onClick={() => setOpen(false)}>Experience</a>
           </div>
         </div>
