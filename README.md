@@ -1,12 +1,12 @@
-# Tamara Elayelagha - Fullstack Software Engineer Portfolio
+# Tamara Elayelagha - Full-stack Software Engineer Portfolio
 
 ![Portfolio Preview](./public/websites/palremit-hero.png)
 
-A modern, responsive portfolio website showcasing my work as a Fullstack Software Engineer specializing in React, Node.js, Python, and enterprise applications.
+A modern, responsive portfolio website showcasing my work as a Fullstack Software Engineer specialising in React, Node.js, Python, and enterprise applications.
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://tamara-elayelagha.netlify.app/)
+[View Portfolio](https://tamara-elaye-portfolio.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -113,14 +113,14 @@ my-portfolio/
 - **90%** improvement in system stability (HRIS migration)
 - **40%** SEO improvement and 50% reduction in support tickets
 - **80%** improvement in user satisfaction (SCM prototype)
-- **Revenue growth** through UI/UX optimization (MoneSave)
+- **Revenue growth** through UI/UX optimisation (MoneSave)
 
 ## 📞 Contact
 
-- **Email**: tamara.elayelagha@email.com
-- **LinkedIn**: [Tamara Elayelagha](https://linkedin.com/in/tamara-elayelagha)
-- **GitHub**: [tamara-elayelagha](https://github.com/tamara-elayelagha)
-- **Portfolio**: [tamara-elayelagha.netlify.app](https://tamara-elayelagha.netlify.app/)
+- **Email**: tamaraelaye@gmail.com
+- **LinkedIn**: [Tamara Elayelagha](https://linkedin.com/in/tamara-elaye)
+- **GitHub**: [tamara-elayelagha](https://github.com/thetamaraelaye)
+- **Portfolio**: [View Portfolio](https://tamara-elaye-portfolio.vercel.app/)
 
 ## 📝 License
 
